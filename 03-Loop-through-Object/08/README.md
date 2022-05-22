@@ -7,8 +7,8 @@ const user = {
 };
 
 user.isActive = false;
-console.log(user); // *
+console.log(user); // *user object with user.isActive = false
 user = {};
-console.log(user); // **
+console.log(user); // ** error because user is const
 
 ```
