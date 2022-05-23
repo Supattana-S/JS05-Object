@@ -24,6 +24,14 @@ function salary(obj) {
     return console.log(result);
   }
 }
+//we can do this also
+// const calcSalary = obj => {
+//   let sum = 0;
+//   for (let k in obj) {
+//     sum += obj[k]
+//   }
+//   return sum
+// }
 
 salary(salaries);
 salary(a);

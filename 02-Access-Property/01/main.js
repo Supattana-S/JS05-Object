@@ -3,6 +3,7 @@ const user = {
   surName: "Doe",
 };
 
+user["name"] = "Jack";
 user.name = "Matt";
 delete user.name;
 

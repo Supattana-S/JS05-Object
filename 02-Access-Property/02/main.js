@@ -1,5 +1,6 @@
 function checkEmpty(obj) {
   for (let k in obj) {
+    // execute 
     return false;
   }
   return true;

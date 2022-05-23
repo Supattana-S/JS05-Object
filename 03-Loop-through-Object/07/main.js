@@ -29,7 +29,10 @@ function checkName(name, obj) {
 let inputName = prompt("Please input your name");
 
 if (checkName(inputName, employees)) {
+  // Can use (employees[name])
   console.log(
     `Name: ${inputName}, salary: ${employees[inputName].salary}, Address: ${employees[inputName].address.district}, ${employees[inputName].address.province}`
   );
+} else {
+  console.log("Not found");
 }

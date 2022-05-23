@@ -17,6 +17,8 @@ while (true) {
   }
   if (value > 1) {
     a[key + "s"] = value;
+  } else {
+    a[key] = value;
   }
 }
 

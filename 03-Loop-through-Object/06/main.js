@@ -20,22 +20,22 @@ function discountCalculation(obj) {
 
 productName = prompt("please input name");
 while (checkToStop(productName)) {
-    productName = prompt("please input name");
+  productName = prompt("please input name");
 }
 
 productSold = prompt("please input Sold number");
 while (checkToStop(productSold)) {
-    productSold = prompt("please input Sold number");
+  productSold = prompt("please input Sold number");
 }
 
 productCost = prompt("please input Cost");
 while (checkToStop(productCost)) {
-    productCost = prompt("please input Cost");
+  productCost = prompt("please input Cost");
 }
 
 productDiscount = prompt("please input Discount");
 while (checkToStop(productDiscount)) {
-    productDiscount = prompt("please input Discount");
+  productDiscount = prompt("please input Discount");
 }
 
 a.productName = productName;
@@ -48,3 +48,22 @@ if (productDiscount !== null || String(productDiscount.trim()) !== "") {
 
 discountCalculation(a);
 console.log(a);
+
+//should do this
+// let name = prompt
+// let sold = prompt
+// let cost = prompt
+
+//const product = {
+//   name,
+//   sold,
+//   cost,
+// }
+
+//if (productDiscount !== null || String(productDiscount.trim()) !== "") {
+// a.productDiscount = productDiscount;
+// }
+
+// const calcPrice = obj => {
+//   return obj.price * obj.amount *(1 - obj.discount || 0) / 100);
+// }
