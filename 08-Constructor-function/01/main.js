@@ -1,6 +1,7 @@
 function Calculator() {
-  this.num1 = 0;
-  this.num2 = 0;
+  // this.num1 = 0; //no nedd because using this.input1 already
+  // this.num2 = 0; //no nedd because using this.input2 already
+
   this.read = function () {
     this.num1 = +prompt("Enter num1");
     this.num2 = +prompt("Enter num2");
